@@ -35,8 +35,8 @@ jobs:
 
       # Bygger Docker-image
       - name: Build Docker image
-        run: docker build -t theonelinkan/spring-dice-app:latest .
+        run: docker build -t theonelinkan/social-web-app:latest .
 
       # Pushar Docker-image till Docker Hub
       - name: Push Docker image
-        run: docker push theonelinkan/spring-dice-app:latest
+        run: docker push theonelinkan/social-web-app:latest
